@@ -1,0 +1,45 @@
+
+nav{
+    
+    height: 150px;
+    background-color: aquamarine;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    display: flex;
+    font-size: xx-large;
+
+}
+#view1{
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#view2 {
+    width: 100%;;
+    height: 990px;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+#view2 h1{
+    text-align: center;
+    padding-top: 30px;
+}
+div{
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    text-align: center;
+    font-size:x-large;
+    line-height: 250px;
+    color: #000000;
+    margin: 30px auto;
+}
