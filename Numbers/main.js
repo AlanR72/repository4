@@ -32,8 +32,17 @@ console.log(Number.parseFloat(myNumber));//returns 42
 console.log(Number.parseFloat(myString));//returns 42
 console.log(Number.parseFloat(myFloat));//returns 42
 
-const myParse = '42.123abc';
-console.log(Number.parseFloat(myParse));//returns 42.123
+const myParse = '42.983abc';
+console.log(Number.parseFloat(myParse));//returns 42.983
 
 //toFixed() method
-console.log(myNumber.toFixed(3));//returns 42.000
+console.log (myFloat.toFixed(3));//returns 42.000.(string) toFixed will round up a float number and return a string type data.
+
+console.log(Number.parseFloat(myParse).toFixed(2));//returns 42.98 (string)
+
+//Chaining = using several methods together
+console.log(Number.parseFloat('42.123abc').toFixed(2).toString());//returns 42.12 (string)
+
+console.log(Number.parseInt(myFloat));//returns 42(number)
+console.log(Number.parseInt(myParse));//returns 42(number)
+
